@@ -1,0 +1,150 @@
+.blog {
+
+  &__one-box {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 470px;
+    height: 400px;
+    background-image: url(../img/blog-1.png);
+    border-radius: 12px;
+  }
+  &__one-content {
+    left: 24px;
+    bottom: 24px;
+      color: #fff;
+  }
+  &__one-title {
+    width: 380px;
+  }
+  &__one-text {
+   
+    padding: 0 8px 1px 8px;
+    background: #f4f8ec;
+    border-radius: 12px;
+    top: -260px;
+  }
+  &__one-autor {
+    background-image: url(../img/ellipse1.png);
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    border: none;
+  }
+  &__two-box{
+    max-width: 270px;
+  }
+  &__two-img{
+    width: 270px;
+    height: 180px;
+    border-radius: 12px;
+    background-image: url(../img/blog-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &__two-text{
+    padding: 0 8px 1px 8px;
+    background: #f4f8ec;
+    border-radius: 12px;
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-top: 24px;
+  }
+  &__two-title{
+    margin-bottom: 16px;
+  }
+&__tree-box{
+  max-width: 370px;
+
+}
+  &__tree-content{
+     max-width: 250px;
+  }
+  &__tree-title{
+    margin-bottom: 16px;
+  }
+   &__tree-img{
+    width: 96px;
+    height: 96px;
+    border-radius: 12px;
+    background-image: url(../img/blog-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+
+.big {
+  &__one-box {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 470px;
+    height: 400px;
+    background-image: url(../img/blog-1.png);
+    border-radius: 12px;
+    position: relative;
+  }
+  &__bg {
+    height: 200px;
+    width: 570px;
+    background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 12px;
+    padding-top: 172px;
+  }
+  &__one-content {
+    left: 24px;
+    bottom: 24px;
+    color: #fff;
+  }
+  &__one-title {
+    width: 380px;
+  }
+  &__one-text {
+    text-align: center;
+    margin-top: 16px;
+    margin-left: 16px;
+    max-width: 70px;
+  }
+
+
+  &__one-box {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 570px;
+    height: 400px;
+    background-image: url(../img/blog-1.png);
+    border-radius: 12px;
+  }
+  &__one-content {
+    left: 24px;
+    bottom: 24px;
+    color: #fff;
+  }
+  &__one-title {
+    width: 380px;
+    line-height: 33px;
+  }
+  &__one-text {
+    padding: 0 8px 1px 8px;
+    background: #f4f8ec;
+    border-radius: 12px;
+    top: -260px;
+  }
+  &__one-autor {
+    background-image: url(../img/ellipse1.png);
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    border: none;
+  }
+}

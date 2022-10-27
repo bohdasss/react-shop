@@ -1,0 +1,74 @@
+.cover {
+  max-width: 270px;
+  &__cart-inner {
+    border-radius: 12px;
+    background: #ffffff;
+    border: 1px solid #d1d1d1;
+    padding: 16px;
+  }
+  &__cart-img {
+    width: 236px;
+    height: 180px;
+    // background-image: url(../bg-fon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "- 36%";
+      color: #6a983c;
+      background-color: #f4f8ec;
+      padding: 0 6px;
+      border-radius: 12px;
+      left: 12px;
+      top: 12px;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+  &__cart-inner-text {
+    padding: 16px 0;
+  }
+  &__cart-inner {
+  }
+  &__cart-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #151515;
+    padding-bottom: 5px;
+  }
+  &__cart-subtitle {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #575757;
+  }
+  &__star {
+    padding-top: 15px;
+  }
+  &__cart-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__cart-price {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #151515;
+  }
+  &__cart-subprice {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #a9a9a9;
+  }
+  transition: all 0.3s;
+  &:hover {
+    transform: translateY(-10px);
+  }
+}

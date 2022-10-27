@@ -1,0 +1,9 @@
+.bif{
+  &::after{
+    content: "/";
+    padding-left: 25%;
+  }
+}
+.products{
+  text-align: end;
+}

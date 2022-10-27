@@ -1,0 +1,60 @@
+.leftf {
+  &__filter {
+    width: 267px;
+  }
+
+  &__filter-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  &__filter-text-number {
+    color: #6a983c;
+    font-size: 12px;
+    background: #f4f8ec;
+    border-radius: 12px;
+    padding: 0 8px;
+  }
+  &__filter-inner {
+    margin: 0 0 48px 0;
+  }
+  &__filter-four-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 31px;
+  }
+  &__filter-four-min {
+    max-width: 109px;
+  }
+  &__filter-four-text {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  &__filter-four-input {
+    width: 100%;
+    background: #f9f9f9;
+    border: 1px solid #d1d1d1;
+    border-radius: 12px;
+    padding: 12px 5px 12px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    outline: none;
+  }
+  &__filter-four-max {
+    max-width: 109px;
+  }
+  &__filter-four-btn {
+    margin-right: 35px;
+  }
+
+  .star {
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+  }
+}

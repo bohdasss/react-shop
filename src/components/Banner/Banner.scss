@@ -1,0 +1,18 @@
+.category {
+  top: 48px;
+  left: 33px;
+  &__block-two-sub {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #6a983c;
+  }
+  &__block-two-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+  }
+  &__btn {
+    top: 105px;
+  }
+}

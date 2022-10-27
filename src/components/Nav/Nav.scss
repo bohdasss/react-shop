@@ -1,0 +1,110 @@
+.header {
+  &__one {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(#151515, 0.05);
+  }
+  &__search {
+    max-width: 500px;
+    height: 52px;
+    background: #f9f9f9;
+    border: 1px solid #d1d1d1;
+    border-radius: 12px;
+    position: relative;
+    svg {
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      position: absolute;
+    }
+  }
+  &__input-search {
+    border: none;
+    background: transparent;
+    font-weight: 400;
+    font-size: 14px;
+    width: 262px;
+    line-height: 19px;
+    color: #a9a9a9;
+    outline: none;
+  }
+  &__width {
+    height: 1px;
+    background-color: #d1d1d1;
+    transform: rotate(90deg);
+    width: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  &__search-btn {
+    margin-right: 16px;
+  }
+  &__search-title {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    margin-left: 16px;
+    width: 120px;
+    padding-right: 15px;
+  }
+  &__two {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  &__basket {
+    position: relative;
+    &::after {
+      content: "4";
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      left: -5px;
+      bottom: -5px;
+      position: absolute;
+      color: #fff;
+      background: #e6704b;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 12px;
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  &__nav {
+    background: #f9f9f9;
+    margin: 0 auto;
+    width: 100%;
+  }
+  &__link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: "Poppins";
+    position: relative;
+    &::after {
+      content: "";
+      background-image: url(../img/ar-gr-sm.svg);
+      width: 8px;
+      height: 8px;
+      right: -5px;
+      background-position: center;
+      position: absolute;
+      background-repeat: no-repeat;
+      z-index: 1;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+.cloze-bl {
+  position: absolute;
+  padding-right: 20px;
+}
+svg {
+  cursor: pointer;
+}
+.active-link {
+  color: red;
+  cursor: default;
+}

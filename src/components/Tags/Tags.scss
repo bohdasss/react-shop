@@ -1,0 +1,18 @@
+.tags {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  &__link {
+    display: inline-block;
+    padding: 4px 10px;
+    background: #f5f5f5;
+    border-radius: 12px;
+    font-weight: 600;
+  }
+  &__conten {
+    gap: 16px;
+    width: 1200px;
+  }
+  &__text {
+    width: 350px;
+  }
+}
